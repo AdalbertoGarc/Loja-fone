@@ -22,5 +22,5 @@ nav{
 a{
     text-decoration: none;
     color: inherit; /*inherit está herdando do pai, nesse caso o header*/
-    margin-left: 60px;
+    margin-left: 60px; /*Espaçamento entre os <a>*/
 }
