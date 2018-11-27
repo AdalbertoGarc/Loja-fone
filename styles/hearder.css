@@ -11,7 +11,9 @@ header{
     padding: 55px 60px 95px;
     /* margin: 115px 115px 0px; */
     position: absolute;
-    margin: 25% 25%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     
 }
 
