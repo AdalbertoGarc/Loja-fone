@@ -1,10 +1,18 @@
 /*Guardar duas cores pra usar depois #6262ff e #da62ff*/
+body{
+    width: 100%;
+    height: 100%;
+}
+
 header{
     background-color: #e24647;
     overflow: hidden;
     color: #fff;
     padding: 55px 60px 95px;
-    margin: 115px 115px 0px;
+    /* margin: 115px 115px 0px; */
+    position: absolute;
+    margin: 25% 25%;
+    
 }
 
 h1{
