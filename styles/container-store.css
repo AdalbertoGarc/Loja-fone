@@ -1,0 +1,10 @@
+.container-store{
+    background-color: #e24647;    
+    width: 78%;
+    padding: 55px 60px 95px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* É possivel fazer tbm desta forma --> transform: translateX(-50%) translateY(-50%); */
+}

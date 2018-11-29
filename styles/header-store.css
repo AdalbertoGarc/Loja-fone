@@ -1,36 +1,27 @@
 /*Guardar duas cores pra usar depois #6262ff e #da62ff*/
-body{
-    width: 100%;
-    height: 100%;
-}
-
-header{
-    background-color: #e24647;
+.header-store{
     overflow: hidden;
     color: #fff;
-    padding: 55px 60px 95px;
-    /* margin: 115px 115px 0px; */
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    
 }
 
-h1{
+.title{
     font-family: Arial, 'Roboto', Verdana, sans-serif;
     font-size: 40px;
     float: left;
 }
 
-nav{
+.navigation-store{
     font-size: 21px;
     font-family: 'Segoe UI', 'Roboto', Verdana, sans-serif;
     float: right;
 }
 
-a{
+.action{
     text-decoration: none;
     color: inherit; /*inherit está herdando do pai, nesse caso o header*/
-    margin-left: 60px; /*Espaçamento entre os <a>*/
+    margin-right: 60px; /*Espaçamento entre os <a>*/
+}
+
+.last{
+    margin-right: 0px;
 }
