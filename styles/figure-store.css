@@ -1,0 +1,14 @@
+.figure-store{
+    float: left;
+    background-color: #fff;
+    width: 600px;
+    height: 570px;
+    border-radius: 0px 150px 150px 0px;
+    margin-top: 95px;
+    transform: translateX(-61px);
+}
+
+.icon-fone{
+    margin-left: 105px;
+    padding-top: 25px;
+}
