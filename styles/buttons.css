@@ -12,6 +12,7 @@
     border-radius: 1px;
     text-decoration: none;
     margin-right: 38px;
+    cursor: pointer;
 }
 
 .button-store.-buy{
