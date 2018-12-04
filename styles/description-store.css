@@ -17,19 +17,23 @@
 
 .description-product > .pricing{
     font-size: 20px;
-    margin-top: 26px;
-    text-transform: uppercase;
+    margin-top: 28px;
 }
 
-.description-product > .pricing.-freight{
-    font-size: 20px;
-    margin-top: 28px;
+.description-product > .pricing.-info{
+    width: 200px;
+    text-align: right;
+}
+
+.description-product .contrast{
     text-transform: uppercase;
+    float: left;
 }
 
 .description-product > .description{
     margin-top: 70px;
     line-height: 30px;
+    min-width: 550px;
 }
 
 .description-product > .know-more{
