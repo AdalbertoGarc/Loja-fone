@@ -8,6 +8,7 @@
     font-family: Arial, 'Roboto', Verdana, sans-serif;
     font-size: 40px;
     float: left;
+    text-transform: uppercase;
 }
 
 .header-store > .navigation-store{

@@ -18,11 +18,13 @@
 .description-product > .pricing{
     font-size: 20px;
     margin-top: 26px;
+    text-transform: uppercase;
 }
 
 .description-product > .pricing.-freight{
     font-size: 20px;
     margin-top: 28px;
+    text-transform: uppercase;
 }
 
 .description-product > .description{
