@@ -10,18 +10,18 @@
     float: left;
 }
 
-.navigation-store{
+.header-store > .navigation-store{
     font-size: 21px;
     font-family: 'Segoe UI', 'Roboto', Verdana, sans-serif;
     float: right;
 }
 
-.action{
+.navigation-store > .action{
     text-decoration: none;
     color: inherit; /*inherit está herdando do pai, nesse caso o header*/
     margin-right: 60px; /*Espaçamento entre os <a>*/
 }
 
-.action.-last{
+.navigation-store > .action.-last{
     margin-right: 0px;
 }
