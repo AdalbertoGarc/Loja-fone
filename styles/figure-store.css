@@ -1,11 +1,13 @@
 .figure-store{
-    float: left;
+    /* float: left; */
+    display: inline-block;
     background-color: #fff;
     width: 600px;
     height: 570px;
     border-radius: 0px 150px 150px 0px;
-    margin-top: 95px;
     transform: translateX(-60px);
+    vertical-align: middle;
+    margin-right: 156px;
 }
 
 .icon-fone{

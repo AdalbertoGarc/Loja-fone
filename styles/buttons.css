@@ -25,3 +25,12 @@
     background-color: transparent;
     width: 220px;
 }
+
+.button-store > button,
+.button-store > a {
+    font-size: inherit;
+    background-color: inherit;
+    border: none;
+    color: inherit;
+    text-decoration: inherit;
+}
