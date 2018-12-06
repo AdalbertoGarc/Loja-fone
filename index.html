@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="styles/figure-store.css">
         <link rel="stylesheet" href="styles/wrap-product.css">
         <link rel="stylesheet" href="styles/description-product.css">
+        <link rel="stylesheet" href="styles/wrap-stars.css">
         <link rel="stylesheet" href="styles/wrap-button.css">
         <link rel="stylesheet" href="styles/buttons.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
@@ -27,10 +28,15 @@
         <div class="container-store">
             <header class="header-store">
 
+                <!-- Logo -->
                 <h1 class="title">Logo</h1>
                 
                 <!-- Busca -->
-                
+                <form class="wrap-search" action="comprar.html">
+                    <input class="search" type="search" name="Busca" placeholder="Busca">
+                </form>
+
+                <!-- Navegação -->
                 <nav class="navigation-store">
                     <a class="action" href="index.html">Produtos</a><!--
                  --><a class="action" href="index.html">Serviços</a><!--
@@ -38,14 +44,24 @@
                 </nav>
             </header>
 
+            <!-- Icone do Produto -->
             <figure class="figure-store">
                 <img class="icon-fone" src="icons/icon1x.png" alt="Fone de ouvido">
             </figure>
 
+            <!-- Descrição do Produto -->
            <section class="wrap-product">
                 <dl class="description-product">
                     <dt class="title">Fone top, feliz e caro</dt>
                     
+                    <dd class="wrap-stars">
+                        <img class="star" src="icons/starDark1.png" alt="Estrela selecionada"><!--
+                     --><img class="star" src="icons/starDark1.png" alt="Estrela selecionada"><!--
+                     --><img class="star" src="icons/starDark1.png" alt="Estrela selecionada"><!--
+                     --><img class="star" src="icons/starDark1.png" alt="Estrela selecionada"><!--
+                     --><img class="star -no-selected" src="icons/starRed1.png" alt="Estrela não selecionada">
+                    </dd>
+
                     <dd class="rating">4.0 (97)</dd>
                     
                     <dd class="pricing -info"><strong class="contrast">Frete</strong> C$ 108</dd>
@@ -58,13 +74,13 @@
                         <a class="action" href="index.html">Saber mais...</a>
                     </dd>
                 </dl>
-
                 
-            </section>
+                <!-- Ações para Comprar Produto -->
+                <section class="wrap-button">
+                    <button class="button-store -addCart" type="submit">Adiciona no carrinho</button><!--
+                    --><a class="button-store -buy" href="comprar.html">Comprar</a>
+                </section>
 
-            <section class="wrap-button">
-                <button class="button-store -addCart" type="submit">Adiciona no carrinho</button><!--
-                --><a class="button-store -buy" href="comprar.html">Comprar</a>
             </section>
                 
         </div>

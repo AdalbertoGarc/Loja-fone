@@ -11,6 +11,28 @@
     text-transform: uppercase;
 }
 
+.header-store > .wrap-search{
+    position: absolute;
+    right: 525px;
+    border-bottom: #fff 2px solid;
+}
+
+.wrap-search > .search{
+    width: 358px;
+    height: 32px;
+    border: none;
+    background-color: transparent;
+    font-family: Arial, 'Roboto', Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    outline: 0;
+    color: #fff;
+}
+
+.wrap-search > .search::placeholder {
+    color: #fff;
+}
+
 .header-store > .navigation-store{
     font-size: 21px;
     font-family: 'Segoe UI', 'Roboto', Verdana, sans-serif;
