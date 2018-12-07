@@ -6,7 +6,7 @@
 .wrap-stars > .star {
     display: inline-block;
     margin-right: 10px;
-
+    cursor: pointer;
 }
 
 /* .star.-no-selected {
