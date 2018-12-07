@@ -34,3 +34,15 @@
     color: inherit;
     text-decoration: inherit;
 }
+
+.button-store.-buy:hover {
+    background-color: #fff;
+    color: #252c41;
+}
+
+.button-store.-addCart:hover{
+    background-color: #fff;
+    color: #ff2e63;
+    width: 220px;
+    
+}
