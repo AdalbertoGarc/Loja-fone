@@ -1,0 +1,6 @@
+.wrap-heart{
+    position: absolute;
+    transform: translateX( calc(-100% + -50px))
+               translateY(10px);
+    cursor: pointer;
+}
